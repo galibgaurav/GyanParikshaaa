@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Gyan Pariksha</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    @*site.css can overwrite bootstrap properties*@
+    <link  href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="container">
+        <header></header>
+    </section>
+    <section>
+            <h2>@ViewBag.Title</h2>   
+            @RenderBody()
+    </section>
+    <footer>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/js/index.js"></script>
+</body>
+</html>
